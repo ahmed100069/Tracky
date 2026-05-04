@@ -1,0 +1,142 @@
+
+> tracky-monorepo@1.0.0 dev
+> node scripts/dev.mjs
+
+Starting Tracky backend and frontend...
+[33m[backend][0m 
+> tracky-backend@1.0.0 dev
+> nodemon src/server.js
+
+[36m[frontend][0m 
+> tracky-frontend@1.0.0 dev
+> vite
+
+[33m[backend][0m [33m[nodemon] 3.1.14[39m
+[33m[backend][0m [33m[nodemon] to restart at any time, enter `rs`[39m
+[33m[nodemon] watching path(s): *.*[39m
+[33m[nodemon] watching extensions: js,mjs,cjs,json[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[36m[frontend][0m Port 5173 is in use, trying another one...
+[36m[frontend][0m 
+  [32m[1mVITE[22m v5.4.21[39m  [2mready in [0m[1m484[22m[2m[0m ms[22m
+
+  [32m➜[39m  [1mLocal[22m:   [36mhttp://localhost:[1m5174[22m/[39m
+[2m  [32m➜[39m  [1mNetwork[22m[2m: use [22m[1m--host[22m[2m to expose[22m
+[33m[backend][0m Managed MongoDB started at mongodb://127.0.0.1:27017/tracky
+[33m[backend][0m MongoDB connected using managed local storage: mongodb://127.0.0.1:27017/tracky
+[33m[backend][0m Tracky API listening on port 5000
+[33m[backend][0m [0mPOST /api/auth/login [33m401[0m 24.674 ms - 246[0m
+[33m[backend][0m [0mPOST /api/auth/signup [32m201[0m 194.890 ms - 435[0m
+[33m[backend][0m [0mGET /api/menu [32m200[0m 41.068 ms - 2[0m
+[33m[backend][0m [0mGET /api/inventory [32m200[0m 17.391 ms - 2[0m
+[33m[backend][0m [0mGET /api/customers [32m200[0m 21.563 ms - 2[0m
+[33m[backend][0m [0mGET /api/dashboard/summary [32m200[0m 46.787 ms - 197[0m
+[33m[backend][0m [0mGET /api/menu [36m304[0m 19.716 ms - -[0m
+[33m[backend][0m [0mGET /api/ai/insights [32m200[0m 38.474 ms - 96[0m
+[33m[backend][0m [0mGET /api/orders [32m200[0m 38.088 ms - 2[0m
+[33m[backend][0m [0mGET /api/inventory [36m304[0m 21.648 ms - -[0m
+[33m[backend][0m [0mGET /api/customers [36m304[0m 20.496 ms - -[0m
+[33m[backend][0m [0mGET /api/dashboard/summary [36m304[0m 19.358 ms - -[0m
+[33m[backend][0m [0mGET /api/ai/insights [36m304[0m 9.601 ms - -[0m
+[33m[backend][0m [0mGET /api/orders [36m304[0m 8.314 ms - -[0m
+[33m[backend][0m [0mGET /api/menu [36m304[0m 15.671 ms - -[0m
+[33m[backend][0m [0mGET /api/customers [36m304[0m 15.522 ms - -[0m
+[33m[backend][0m [0mGET /api/inventory [36m304[0m 14.930 ms - -[0m
+[33m[backend][0m [0mGET /api/ai/insights [36m304[0m 12.898 ms - -[0m
+[33m[backend][0m [0mGET /api/dashboard/summary [36m304[0m 20.819 ms - -[0m
+[33m[backend][0m [0mGET /api/orders [36m304[0m 12.022 ms - -[0m
+[33m[backend][0m [0mGET /api/menu [36m304[0m 18.768 ms - -[0m
+[33m[backend][0m [0mGET /api/customers [36m304[0m 17.989 ms - -[0m
+[33m[backend][0m [0mGET /api/inventory [36m304[0m 17.664 ms - -[0m
+[33m[backend][0m [0mGET /api/ai/insights [36m304[0m 17.704 ms - -[0m
+[33m[backend][0m [0mGET /api/dashboard/summary [36m304[0m 19.143 ms - -[0m
+[33m[backend][0m [0mGET /api/orders [36m304[0m 11.585 ms - -[0m
+[33m[backend][0m [0mPOST /api/auth/login [33m401[0m 78.964 ms - 162[0m
+[33m[backend][0m [0mPOST /api/auth/login [33m401[0m 79.394 ms - 162[0m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m Managed MongoDB started at mongodb://127.0.0.1:61524/tracky
+[33m[backend][0m MongoDB connected using managed local storage: mongodb://127.0.0.1:61524/tracky
+[33m[backend][0m Tracky API listening on port 5000
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m MongoDB connected: mongodb://127.0.0.1:27017/tracky
+[33m[backend][0m [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [31m[nodemon] app crashed - waiting for file changes before starting...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] restarting due to changes...[39m
+[33m[backend][0m [32m[nodemon] starting `node src/server.js`[39m
+[33m[backend][0m [31m[nodemon] app crashed - waiting for file changes before starting...[39m
